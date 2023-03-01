@@ -1,0 +1,8 @@
+open command prompt then do the following : 
+
+->conda create --name opencv-env python=3.6
+->activate opencv-env
+->pip install numpy scipy matplotlib scikit-learn jupyter
+->pip install opencv-contrib-python
+->conda update -n base -c defaults conda
+->conda install -c conda-forge dlib
