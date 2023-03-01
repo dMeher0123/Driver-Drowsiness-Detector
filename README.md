@@ -8,10 +8,10 @@ The point of this undertaking is to build up a prototype drowsiness detection sy
 By monitoring the eyes, it is believed that the symptoms of driver fatigue can be detected early enough to avoid a car accident. Detection of fatigue involves the observation of eye movements and blink patterns in a sequence of images of a face.
 
 
-1.  Problem Statement
+# 1.  Problem Statement
 Designing a prototype Drowsiness Detection System which will focus on continuously and accurately monitoring the state of the driver’s eyes in real time tocheck whether they are open or closed for more than a given period of time
 
-2.  Objectives Of Our Project
+# 2.  Objectives Of Our Project
 Driver drowsiness detection is a car safety technology which spares the life of the driver by avoiding mishaps when the driver is getting languid.
 •	The primary goal is to initially plan a framework to distinguish driver's sluggishness by persistently checking retina of the eye.
 •	The framework works disregarding driver wearing displays and in different lighting conditions.
@@ -23,17 +23,17 @@ Driver drowsiness detection is a car safety technology which spares the life of 
                         Software Requirements
                         OpenCV, dlib and Python
 
-3.  Working
+# 3.  Working
 Drivers face is monitored throughout using a video or web camera. In order to detect the drowsiness the first step is to detect the face using the set of framestaken by the camera. Then the location of the eyes is detected and retina of the eyeis continuously monitored. The captured image is sent to the processor for image processing. It converts the received image to digital signal using Open CV.
 The digital signal is transmitted from transmitter to the receiver. Both the transmitter and the receiver are paired up. The signal is then passed to the LPC2148, the microcontroller. If the signal crosses the threshold value of EAR for a given number of frames, then the alarm beeps and the speed of the vehicle is automatically reduced.
 
-4.1.	Computational Analysis
+# 4.1.	Computational Analysis
    Dashboard mounted camera is used to monitor the eyes of the driver in real time to detect drowsiness
 
-4.2.	Drowsiness Detection Design
+# 4.2.	Drowsiness Detection Design
    A camera is setup that looks for faces in the input video stream and monitors frames of faces. In the event that a face is identified, facial milestone identification is connected and the eye district is removed from the edges of the video stream.
 
-6.	Summary:
+# 5.	Summary:
 
 
   To get the outcome a large no of pictures were taken and their accuracy in deciding eye flickers and drowsiness was tried.
